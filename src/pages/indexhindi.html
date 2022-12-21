@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix भारत - टीवी शो और फ़िल्में ऑनलाइन देखें</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="icon" type="image/x-icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png">
+    <script src="https://kit.fontawesome.com/38b951bfd3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav_bar">
+        <div class="navbar">
+            <div class="brand_logo_item">
+              <img
+                src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"alt="logo"class="brand_logo"/>
+            </div>
+            <div class="navbar_items">
+                <div class="nav_item">
+                   <div class="dropdown">
+                        <div class="dropdown_component">
+                            <i class="fas fa-globe"></i>
+                            <select name="languages" id="languagesSelect" class="language_dropdown" onchange="gotopage(this)">
+                                <option value="../../index.html" >English</option>
+                            
+                                <option value="./indexhindi.html" selected>हिन्दी</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_item">
+                    <a href="../pages/signin.html"><button class="navbar_sign_in">साइन इन करें</button></a>  
+                </div>
+            </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="basic_layout">
+            <div class="basic_bg_image_container">
+                <img src="https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg"alt="BG hero image" class="basic_bg_image"/>
+            </div>
+            <div class="basic_card_container">
+                <h1 class="card_title">अनलिमिटेड फ़िल्में, टीवी शो <br>और बहुत कुछ.</h1>
+                <p class="card_subtitle">जहां चाहें देखें. जब चाहें कैंसल करें..</p>
+                <p class="card_description">देखने के लिए तैयार हैं? अपनी मेंबरशिप बनाने या रीस्टार्ट करने के लिए अपना ईमेल एड्रेस डालें.</p>
+                <div class="card_form">
+                    <!-- <div> -->
+                        <input type="text" placeholder="ईमेल एड्रेस" class="form_emailaddress" autocomplete="off">
+                        <!-- <label class="email__label">Email Address</label> -->
+                    <!-- </div> -->
+                    <a href="./index2.html"><button class="card_submitbtn ">शुरू करें <i class="fa-solid fa-greater-than"></i></button>  </a>
+                    
+                </div>
+            </div>
+        </section> 
+        <section class="features_section">
+            <div class="feature">
+                <div class="feature_info">
+                    <h1 class="feature_title">अपनी टीवी पर मज़ा लें.</h1>
+                    <p class="feature_description">स्मार्ट टीवी, PlayStation, Xbox, Chromecast,<br> Apple TV, Blu-ray प्लेयर के साथ ही <br>दूसरे डिवाइस पर भी देखें.<br> and more.
+                    </p>
+                </div>
+                <div>
+                    <img class="feature_image" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="Feature image" class="feature__image feature__3__image"/>
+                     <div class="feature_video1">
+                        <video autoplay="" loop="" muted="" class="feature_background_video1">
+                            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
+                         </video>
+                     </div>
+                </div>
+            </div>
+            <div class="feature">
+                <div>
+                    <img class="feature_image" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" alt="Feature image" class="feature__image feature__3__image"/>
+                    <div class="download_feature">
+                        <div class="poster_container">
+                            <img
+                              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
+                              alt="poster"
+                              class="poster"
+                            />
+                        </div>
+                        <div class="download_feature_title">
+                            <h3>Stranger Things</h3>
+                            <p>Downloading...</p>
+                        </div>
+                         <div class="feature_download_gif">
+                            <img
+                              src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif"
+                              alt="downloading gif"
+                              class="gif"
+                            />
+                          </div>
+                    </div>
+                   
+                </div>
+                <div class="feature_info">
+                    <h1 class="feature_title">ऑफ़लाइन देखने के लिए<br> अपने शो डाउनलोड करें.</h1>
+                    <p class="feature_description">अपने पसंदीदा शो और फ़िल्में सेव करें, ताकि आप <br>कभी भी इन्हें देख सकें.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="feature">
+                
+                <div class="feature_info">
+                    <h1 class="feature_title">हर जगह देखें.</h1>
+                    <p class="feature_description">बिना ज़्यादा पेमेंट किए, अपने फ़ोन, टैबलेट, लैपटॉप<br> और टीवी पर अनलिमिटेड फ़िल्में और टीवी शो स्ट्रीम करें.
+                    </p>
+                </div>
+                <div>
+                    <img class="feature_image" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" alt="Feature image" class="feature__image feature__3__image"/>
+                     <div class="feature_video">
+                        <video autoplay="" loop="" muted="" class="feature_background_video">
+                            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4">
+                         </video>
+                     </div>
+                </div>
+                
+            </div>
+            <div class="feature">
+                <div class="graphic">
+                    <img class="feature_image" src="https://occ-0-4023-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf" alt="Feature image" class="feature__image feature__3__image"/>
+                </div>
+                <div class="feature_info">
+                    <h1 class="feature_title">बच्चों के लिए प्रोफ़ाइल बनाएं.</h1>
+                    <p class="feature_description">बच्चों को जाने दें अपने पसंदीदा किरदारों के साथ <br>उस रोमांचक सफ़र पर जो सिर्फ़ उनके लिए ही है -<br> आपकी मेंबरशिप के साथ फ़्री.
+                    </p>
+                </div> 
+            </div>
+        </section>
+        <section class="FAQ">
+            <div class="FAQ_Section">
+                <h1 class="FAQ_heading">अक्सर पूछे जाने वाले सवाल</h1>
+                <div class="FAQ_Container">
+                   <div class="FAQ_Question">
+                      <span class="question">Netflix क्या है?</span>
+                      <i class="fa-solid fa-plus openanswer"></i>
+                      <!-- <i class="fa-solid fa-xmark closeanswer hidden"></i> -->
+                   </div>
+                   <div class="FAQ_Answer hidden">
+                       <span class="answer">Netflix एक स्ट्रीमिंग सर्विस है जिसके ज़रिए आप हज़ारों इंटरनेट-कनेक्टेड डिवाइस पर तरह-तरह के अवॉर्ड विजेता टीवी शो, फ़िल्में, ऐनिमे, डॉक्यूमेंट्रीज़ का लुत्फ़ उठा सकते हैं.
+
+                        आप जब चाहें, जितना चाहें, बिना किसी विज्ञापन के देख सकते हैं – सारा कॉन्टेंट बहुत कम मासिक शुल्क पर. खोजने के लिए हमेशा कुछ नया होता है और हर हफ़्ते नए टीवी शो और फ़िल्में जोड़ी जाती हैं!</span>
+                   </div>
+                </div>                             
+                <div class="FAQ_Container">
+                   <div class="FAQ_Question">
+                      <span class="question">Netflix की कीमत कितनी है?</span>
+                      <i class="fa-solid fa-plus openanswer"></i>
+                      <i class="fa-solid fa-xmark closeanswer hidden"></i>
+                   </div>
+                   <div class="FAQ_Answer hidden">
+                       <span class="answer">हर महीने की तय फ़ी देकर अपने स्मार्टफ़ोन, टैबलेट, स्मार्ट टीवी, लैपटॉप, या स्ट्रीमिंग डिवाइस पर Netflix देखें. हर महीने ₹149 से ₹649 तक के प्लान. कोई एक्सट्रा कीमत या कॉन्ट्रैक्ट नहीं.</span>
+                   </div>
+                </div>                             
+                <div class="FAQ_Container">
+                   <div class="FAQ_Question">
+                      <span class="question">मैं कहां देख सकता हूं?</span>
+                      <i class="fa-solid fa-plus openanswer"></i>
+                      <!-- <i class="fa-solid fa-xmark closeanswer hidden"></i> -->
+                   </div>
+                   <div class="FAQ_Answer hidden">
+                       <span class="answer">कहीं भी, कभी भी देखें अपने पर्सनल कंप्यूटर से या स्मार्ट टीवी, स्मार्टफ़ोन, टैबलेट, स्ट्रीमिंग मीडिया प्लेयर और गेम कंसोल सहित Netflix ऐप ऑफ़र करने वाले किसी भी इंटरनेट-कनेक्टेड डिवाइस पर तुरंत देखने के लिए, वेब पर netflix.com पर अपने Netflix अकाउंट में साइन इन करें.
+
+                        आप iOS, Android या Windows 10 ऐप से भी अपने पसंदीदा शो डाउनलोड कर सकते हैं. चलते-फिरते और बिना इंटरनेट कनेक्शन के देखने के लिए डाउनलोड का उपयोग करें. Netflix को अपने साथ कहीं भी ले जाएं.
+                        </span>
+                   </div>
+                </div>                             
+                <div class="FAQ_Container">
+                   <div class="FAQ_Question">
+                      <span class="question">मैं कैसे कैंसल करूं?</span>
+                      <i class="fa-solid fa-plus openanswer"></i>
+                      <!-- <i class="fa-solid fa-xmark closeanswer hidden"></i> -->
+                   </div>
+                   <div class="FAQ_Answer hidden">
+                       <span class="answer">Netflix लचीला है. कोई परेशान करने वाले कॉन्ट्रैक्ट नहीं और कोई बंधन नहीं हैं. आप आसानी से दो क्लिक में अपना अकाउंट ऑनलाइन कैंसल कर सकते हैं. कोई कैंसलेशन फ़ीस नहीं है – अपना अकाउंट कभी भी शुरू या बंद करें.</span>
+                   </div>
+                </div>                             
+                <div class="FAQ_Container">
+                   <div class="FAQ_Question">
+                      <span class="question">मैं Netflix पर क्या देख सकता/सकती हूं?</span>
+                      <i class="fa-solid fa-plus openanswer"></i>
+                      <!-- <i class="fa-solid fa-xmark closeanswer hidden"></i> -->
+                   </div>
+                   <div class="FAQ_Answer hidden">
+                       <span class="answer">Netflix की बहुत बड़ी लाइब्रेरी में फ़ीचर फ़िल्मों, डॉक्यूमेंट्री, टीवी शो, ऐनिमे, अवॉर्ड-विनिंग Netflix ओरिजिनल्स के अलावा और भी बहुत कुछ है. आप जितना चाहें, कभी भी देखें.</span>
+                   </div>
+                </div>                             
+                <div class="FAQ_Container">
+                   <div class="FAQ_Question">
+                      <span class="question">क्या Netflix बच्चों के लिए ठीक है??</span>
+                      <i class="fa-solid fa-plus openanswer"></i>
+                      <!-- <i class="fa-solid fa-xmark closeanswer hidden"></i> -->
+                   </div>
+                   <div class="FAQ_Answer hidden">
+                       <span class="answer">आपकी मेंबरशिप में Netflix किड्स एक्सपीरियंस शामिल है. बच्चे अपनी तरह से पारिवारिक टीवी शो और फ़िल्मों का आनंद लेते हैं, लेकिन आप उनके द्वारा देखे जाने वाले कॉन्टेंट को कंट्रोल कर सकते हैं.
+
+                        बच्चों की प्रोफ़ाइल में PIN से सुरक्षित पैरेंटल कंट्रोल्स होते हैं जिससे आप बच्चों को मेच्योरिटी रेटिंग वाले कॉन्टेंट देखने से रोक सकते हैं और उन टाइटल को ब्लॉक कर सकते हैं जिन्हें आप नहीं चाहते हैं कि बच्चे देखें.</span>
+                   </div>
+                </div> 
+                <div class="footer_form">
+                    <p class="card_description">देखने के लिए तैयार हैं? अपनी मेंबरशिप बनाने या रीस्टार्ट करने के लिए अपना ईमेल एड्रेस डालें.</p>
+                    <div class="card_form">
+                        <input type="text" placeholder="ईमेल एड्रेस" class="form_emailaddress" autocomplete="off">
+                        <a href="./index2.html"><button class="card_submitbtn ">शुरू करें <i class="fa-solid fa-greater-than"></i></button>  </a>  
+                    </div>
+                </div>
+               
+            </div>                            
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+           <div class="row1">
+               <h4>कोई सवाल है? 000-800-040-1843 पर कॉल करें</h4>
+           </div>
+           <div class="row2">
+                <div class="column">
+                    <p>FAQ</p>
+                    <p>Investor Relations</p>
+                    <p>Privacy</p>
+                    <p>Speed Test</p>
+                </div>
+                <div class="column">
+                    <p>Help Centre</p>
+                    <p>Jobs</p>
+                    <p>Cookie Preferences</p>
+                    <p>Legal Notices</p>
+                </div>
+                <div class="column">
+                    <p>Account</p>
+                    <p>Ways to Watch</p>
+                    <p>Corporate Information</p>
+                    <p>Only on Netflix</p>
+                </div>
+               <div class="column">
+                   <p>Media Centre</p>
+                   <p>Terms of Use</p>
+                   <p>Contact Us</p>
+                </div>
+            </div>
+            <div class="row_3"> 
+                <div class="dropdown">
+                    <div class="dropdown_component">
+                        <i class="fas fa-globe"></i>
+                        <select name="languages" id="languagesSelect" class="language_dropdown" onchange="gotopage(this)">
+                            <option value="../../index.html" >English</option>
+                        
+                            <option value="./indexhindi.html" selected>हिन्दी</option>
+                        </select>
+                    </div>
+                </div>
+          </div>
+           <div class="row_4">
+            <p>@ Netflix India</p>
+           </div>
+        </div>
+    </footer>
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>
